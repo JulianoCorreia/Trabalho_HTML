@@ -1,0 +1,3 @@
+<footer>
+Desenvolvido por &copy Juliano Carvalho Correia - Escola Alcides Maya - Prof. Marcelo Dipp - Trabalho de HTML
+</footer>
