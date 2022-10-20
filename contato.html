@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+    <link rel="shortcut icon" href="./imagens/icone.ico">
+</head>
+
+<body>
+
+    <img id="logo" src="imagens/logo.jpg" alt="Logotipo" title="Logotipo">
+
+    <div class="menu">
+        <nav>
+            <ul class="menuLateral">
+                <li><a href="index.html"><strong>home</strong></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Início da área de formulário-->
+    <form id="contato" name="contato" method="POST" action="mailto:paratrabalhohtml@gmail.com">
+        <h4 id='msgErro'></h4>
+        <input type="text" name="nome" id="nome" placeholder="NOME">
+        <input type="email" name="email" id="email" placeholder="EMAIL">
+        <textarea name="mensagem" id="mensagem" placeholder="DIGITE SUA MENSAGEM"></textarea>
+        <button type="submit">ENVIAR</button>
+    </form>
+    <!--Fim da área de formulário-->
+
+    <!--Inclui rodapé-->
+    <?php include "php/footer.inc"; ?>
+
+    <!--Configurações para formulário-->
+    <script src="js/contato.js"></script>
+
+</body>
+
+</html>
